@@ -9,20 +9,20 @@ function speak(text){
     text_speak.pitch=1;
     window.speechSynthesis.speak(text_speak);
 }
-function wishMe(){
-    var day=new Date();
-    var hour=day.getHours();
-    if(hour>0 && hour<12){
-        speak("Good Morning Boss");
-    }
-    else if(hour>12 && hour<18){
-        speak("Good Afternoon Boss");
-    }
-    else{
-        speak("Good Night ")
-    }
+// function wishMe(){
+//     var day=new Date();
+//     var hour=day.getHours();
+//     if(hour>0 && hour<12){
+//         speak("Good Morning Boss");
+//     }
+//     else if(hour>12 && hour<18){
+//         speak("Good Afternoon Boss");
+//     }
+//     else{
+//         speak("Good Night ")
+//     }
 
-}
+// }
 window.addEventListener('load',()=>{
     speak(" Initializing FRIDAY...");
     wishMe();
