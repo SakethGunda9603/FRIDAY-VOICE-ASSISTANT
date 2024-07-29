@@ -13,13 +13,13 @@ function wishMe(){
     var day=new Date();
     var hour=day.getHours();
     if(hour>0 && hour<12){
-        speak("Good Morning Boss");
+        speak("Good Morning Boss what can i help you");
     }
     else if(hour>12 && hour<18){
-        speak("Good Afternoon Boss");
+        speak("Good Afternoon Boss what can i help you");
     }
     else{
-        speak("Good Night ")
+        speak("Good evening boss what can i help you")
     }
 
 }
