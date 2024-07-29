@@ -117,7 +117,7 @@ function speakThis(message) {
 
     else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
-        const finalText = "I found some information for " + message + " on google";
+        const finalText = "I dont know about it but I have found some information for " + message + " on google";
         speech.text = finalText;
     }
 
